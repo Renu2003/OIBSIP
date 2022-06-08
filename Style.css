@@ -1,0 +1,210 @@
+body{
+    background: rgb(0 0 0 / 97%);
+    color: white;
+}
+nav{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: dimgrey;
+    font-family: 'Poppins', sans-serif;
+    position: absolute;
+    top: 0;
+}
+img{
+    padding-left: 16px;
+    margin-top: 5px;
+    margin-left: 3px;
+}
+.menu{
+    padding-right: 30px;
+}
+.menu a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    padding: 10px 20px;
+    margin: 0px 5px;
+}
+.menu a:last-child{
+    background: plum;
+    border-radius: 3px;
+}
+.menu a:hover{
+    background: plum;
+    border-radius: 3px;
+    transition: 0.4s linear;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.left{
+    flex-basis: 40%;
+}
+.left h1{
+    font-size: 3.5rem;
+    line-height: 3.5rem;
+    margin-left: 55px;
+    margin-top: -109px;
+}
+.right{
+    flex-basis: 50%;
+}
+.right img{
+    width: 80%;
+    padding-left: 0px;
+    margin-top: -103px;
+    -webkit-box-reflect: below 1px linear-gradient(transparent,transparent,transparent,transparent,transparent,#0004);
+}
+.left button{
+    background: #e74c3c;
+    color: white;
+    padding: 15px;
+    margin-left: 56px;
+    border: none;
+    outline: none;
+    border-radius: 3px;
+}
+.sicon{
+    position: absolute;
+    bottom: -39%;
+    left: 39%;
+    top: 135%;
+
+}
+.sicon img{
+    width: 50px;
+}
+h3{
+    margin-top: 570px;
+    margin-left: 361px;
+}
+.line{
+    position: absolute;
+    top: 22%;
+    left: 8%;
+}
+.box0{
+    width: 0px;
+    height: 0px;
+    background: white;
+    margin-top: 461px;
+    margin-left: 350px;
+    background: purple;
+    font-size: 1.6rem;
+    position: static;
+} 
+.box1{
+    width: 38px;
+    height: 38px;
+    background: white;
+    margin-top: -5px;
+    margin-left: 423px;
+    background: purple;
+    position: static;
+} 
+.box2{
+    width: 38px;
+    height: 38px;
+    background: white;
+    margin-top: -10px;
+    margin-left: 5px;
+    background: yellow;
+    position: static;
+}
+.box3{
+    width: 38px;
+    height: 38px;
+    background: white;
+    margin-top: -10px;
+    margin-left: 5px;
+    background: skyblue;
+    position:static;
+}
+.size{
+    position: absolute;
+    top: 32%;
+    left: 8%;
+}
+.boxsize0{
+    width: 0px;
+    height: 0px;
+    background: white;
+    margin-top: 461px;
+    margin-left: 350px;
+    background: purple;
+    font-size: 1.6rem;
+    position: static;
+}
+.boxsize1{
+    width: 38px;
+    height: 38px;
+    background: rgb(128, 123, 123);
+    margin-top: -5px;
+    margin-left: 423px;
+    position: static;
+}
+.boxsize2{
+    width: 38px;
+    height: 38px;
+    margin-top: -10px;
+    margin-left: 5px;
+    background: rgb(52, 250, 2);
+    position: static;
+}
+.boxsize3{
+    width: 38px;
+    height: 38px;
+    background: rgb(128, 123, 123);
+    margin-top: -10px;
+    margin-left: 5px;
+    position:static;
+}
+hr{
+    margin-top: -159px;
+    height: 0px;
+}
+.prize{
+    margin-left: 717px;
+    margin-top: -205px;
+    font-size: 2rem;
+    color: palevioletred
+}
+.cart{
+    margin-top: 11px;
+    margin-left: 711px;
+    background-color: sienna;
+    width: 100px;
+    height: 43px;
+    border-radius: 7px;
+}
+.footer{
+    border: 10px solid rgb(85, 85, 85);
+    height: 292px;
+    margin-top: -142px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.next{
+    width: 67px;
+    height: 67px;
+    margin-top: -69px;
+    margin-left: 909px;
+    font-size: 3.1rem;
+    position: absolute;
+    background-color: sienna;
+    border-radius: 20px;
+}
+.link{
+    margin-top: 910px;
+    margin-left: 480px;
+    top: 35px;
+    position: absolute;
+    color: darkturquoise;
+}
