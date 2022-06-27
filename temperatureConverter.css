@@ -1,0 +1,72 @@
+body{
+    background: black;
+    position: absolute;
+}
+h1{
+    margin-top: 41px;
+    margin-left: 332px;
+    font-size: 3.5rem;
+    color: #f9004d;
+}
+.Cel h2{
+    color: #f9004d;
+    margin-left: -203px;
+    margin-top: 27px;
+    position: absolute;
+}
+.fah h2{
+    color: #f9004d;
+    margin-left: -203px;
+    margin-top: 79px;
+    position: absolute;
+}
+.temperature{
+    margin-top: 140px;
+    margin-left: 602px;
+}
+label[for=temperaturetype]{
+    margin-top: -8px;
+    margin-left: -97px;
+    position: absolute;
+    font-size: 1.6rem;
+    color:gold;
+}
+select[name=temperaturetype]{
+    margin-top: -8px;
+    margin-left: 64px;
+    width: 100px;
+    height: 37px;
+    font-size: 0.9rem;
+    background-color: black;
+    color: darkturquoise;
+    border-radius: 10px;
+}
+input[placeholder=Celcius]{
+    width: 212px;
+    height: 47px;
+    border-radius: 15px;
+    background-color: gainsboro;
+    color: black;
+    position: absolute;
+    margin-top: 15px;
+    margin-left: -70px;
+}
+input[placeholder=Fahrenheit]{
+    width: 212px;
+    height: 47px;
+    border-radius: 15px;
+    background-color: gainsboro;
+    color: black;
+    position: absolute;
+    margin-top: 68px;
+    margin-left: -69px;
+}
+input[type=button]{
+    width: 135px;
+    height: 50px;
+    margin-top: 25px;
+    border-radius: 50px;
+    position: absolute;
+    background-color: cyan;
+    color: black;
+}

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="temp.css">
+    <title>Temperature Converter</title>
+</head>
+<body>
+    <h1>Temperature Converter</h1>
+    <div class="temperature">
+        <div class="Cel">
+            <h2>Celcius</h2>
+            <input type="number" placeholder="Celcius" id="cel">
+        </div>
+        <div class="fah">
+            <h2>Fahrenheit</h2>
+            <input type="number" placeholder="Fahrenheit" id="fah">
+        </div>
+    </div>
+    <script>
+        var cel=document.getElementById("cel");
+        var fah=document.getElementById("fah");
+        cel.addEventListener('input',function(){
+           let c = this.value;
+           let f = (c * 9/5) + 32;
+           if(!Number.isInteger(f)){
+               f = f.toFixed(4);
+           }
+           fah.value=f;
+        });
+        fah.addEventListener('input',function(){
+           let f = this.value;
+           let c = (f - 32)* 5/9;
+           if(!Number.isInteger(c)){
+               c = c.toFixed(4);
+           }
+           cel.value=c;
+        });
+    </script>
+</body>
+</html>
